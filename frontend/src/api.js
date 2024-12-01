@@ -54,8 +54,6 @@ export const DeleteTaskById = async (id) => {
         return err;
     }
 }
-
-
 export const UpdateTaskById = async (id, reqBody) => {
     const url = `${API_URL}/tasks/${id}`;
     console.log('url ', url)
